@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --bg-color: #6E7DAB;
+    --text-color: #32292F;
+    --text-size: 1.2rem;
+    --font-raleway: 'Raleway', sans-serif;
+    --font-roboto-condensed: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--text-size);
+    font-family: var(--font-roboto-condensed);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.box-center {
+    margin: 0 auto;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content:center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
